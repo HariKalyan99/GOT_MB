@@ -42,8 +42,8 @@ function loadGotPage(action) {
          <div class="person-img-container">
                         <img src="${image}" alt="${name}-img" class="person-img">
                     </div>
-                    <span>${name}</span>
-                    <span>${description}</span>
+                    <span class="person-name">${name}</span>
+                    <span class="person-description">${description}</span>
                     <button type="button">KNOW MORE</button>
         `;
 
@@ -62,8 +62,8 @@ function loadGotPage(action) {
          <div class="person-img-container">
                         <img src="${image}" alt="${name}-img" class="person-img">
                     </div>
-                    <span>${name}</span>
-                    <span>${description}</span>
+                    <span class="person-name">${name}</span>
+                    <span class="person-description">${description}</span>
                     <button type="button">KNOW MORE</button>
         `;
 
@@ -83,8 +83,8 @@ function loadGotPage(action) {
          <div class="person-img-container">
                         <img src="${image}" alt="${name}-img" class="person-img">
                     </div>
-                    <span>${name}</span>
-                    <span>${description}</span>
+                    <span class="person-name">${name}</span>
+                    <span class="person-description">${description}</span>
                     <button type="button">KNOW MORE</button>
         `;
 

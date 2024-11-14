@@ -117,13 +117,20 @@ body {
   border-radius: 5px;
   background-color: rgb(134, 192, 192);
   box-shadow: 1px 1px 10px black;
-}
-
-.person-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+}
+
+.person-name{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.person-description{
+  font-size: 1rem;
+  text-align: center;
 }
 
 .person-container > button {
