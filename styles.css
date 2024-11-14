@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.navigation-bar-main {
+  height: 13rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(143, 15, 254, 1) 100%
+  );
+}
+
+.navigation-bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.navigation-bar > div > span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.navigation-bar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-bar > input {
+  width: 20%;
+  height: 2.2rem;
+  padding: 0.3rem;
+}
+
+.crown-img-container {
+  height: 100px;
+  width: 100px;
+  display: flex;
+}
+
+.crown-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.filter-container-main {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filter-container {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-tags {
+  height: 30%;
+  width: 7%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.filter-tags:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 2px solid;
+  color: black;
+}
+
+.people-chart-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people-chart {
+  height: 100%;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.person-container {
+  width: 30%;
+  height: 20rem;
+  border-radius: 5px;
+  background-color: rgb(134, 192, 192);
+  box-shadow: 1px 1px 10px black;
+}
+
+.person-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person-container > button {
+  background-color: black;
+  width: 35%;
+  height: 15%;
+  color: white;
+}
+
+.person-img-container {
+  height: 90px;
+  width: 90px;
+  border: 1px solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.person-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
